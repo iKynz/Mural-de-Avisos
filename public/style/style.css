@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #abbaab;
+    background: -webkit-linear-gradient(to right, #abbaab, #ffffff);
+    background: linear-gradient(to right, #abbaab, #ffffff);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.container h1 {
+    font-weight: 700;
+}
+
+.container input {
+    margin: 5px;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.container button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.title-mural {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+
+#posts {
+    border-style: solid;
+    background: navajowhite;
+    margin: 35px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    border-style: solid;
+    background: white;
+}
+
+.card-text {
+    font-size: 17px;
+}
